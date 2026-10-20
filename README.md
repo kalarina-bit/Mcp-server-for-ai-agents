@@ -29,7 +29,6 @@ A public [Model Context Protocol](https://modelcontextprotocol.io) endpoint for 
 - 🔑 **Your token, your permissions** — the server has no access of its own; every request acts as the user whose token it carries
 - 🧩 **Works with any MCP client** that supports remote HTTP servers
 - 🪶 **Nothing to install** — just a URL and a token
-- 🔒 **HTTPS only**
 
 | | |
 |---|---|
@@ -189,7 +188,6 @@ What actually works depends on the permissions of your token.
 
 ## 🛡️ Security
 
-- The server holds **no token of its own**. Without a valid token in the request it can do nothing.
 - Every action is performed **as you**, limited to what your token allows — you can't reach anyone else's private repositories.
 - Revoke a token at any time in **Settings → Applications**. Do it immediately if a token was ever shown on a screenshot or pasted somewhere public.
 - Use a **separate token per agent**, so you can revoke one without breaking the others.
