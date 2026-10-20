@@ -174,16 +174,16 @@ If it answers with your repositories, you're all set.
 
 | Area | Examples |
 |---|---|
-| 📁 **Repositories** | list, create and fork repositories; browse the file tree |
-| 📝 **Files** | read, create, edit and delete files — several files in one commit |
-| 🌿 **Branches & tags** | create, rename and delete branches; manage tags |
-| 🕓 **Commits** | history, single commits, comparisons, commit statuses |
-| 🐞 **Issues** | read, open, comment, close; labels and milestones |
-| 🔀 **Pull requests** | read, open, update and review |
-| 📦 **Releases** | create, list and delete releases |
-| ⚙️ **Actions** | workflow runs and configuration |
-| 📚 **Wiki, projects, packages** | read and update |
-| 🔍 **Search** | users, repositories, issues, teams |
+| **Repositories** | list, create and fork repositories; browse the file tree |
+| **Files** | read, create, edit and delete files — several files in one commit |
+| **Branches & tags** | create, rename and delete branches; manage tags |
+| **Commits** | history, single commits, comparisons, commit statuses |
+| **Issues** | read, open, comment, close; labels and milestones |
+| **Pull requests** | read, open, update and review |
+| **Releases** | create, list and delete releases |
+| **Actions** | workflow runs and configuration |
+| **Wiki, projects, packages** | read and update |
+| **Search** | users, repositories, issues, teams |
 
 What actually works depends on the permissions of your token.
 
@@ -194,7 +194,7 @@ What actually works depends on the permissions of your token.
 - Revoke a token at any time in **Settings → Applications**. Do it immediately if a token was ever shown on a screenshot or pasted somewhere public.
 - Use a **separate token per agent**, so you can revoke one without breaking the others.
 
-## 🩺 Troubleshooting
+##  Troubleshooting
 
 | What you see | What it means |
 |---|---|
@@ -207,6 +207,6 @@ What actually works depends on the permissions of your token.
 
 Questions, problems and suggestions are welcome in the [issue tracker](https://git.skysparkle.cc/kalarina/Mcp-server-for-ai-agents/issues).
 
-## 🙏 Credits
+##  Credits
 
 Built on [gitea-mcp](https://gitea.com/gitea/gitea-mcp) by the Gitea team, released under the MIT license.
