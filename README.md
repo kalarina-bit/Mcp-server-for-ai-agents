@@ -34,7 +34,7 @@ A public [Model Context Protocol](https://modelcontextprotocol.io) endpoint for 
 |---|---|
 | **Server URL** | `https://mcp.skysparkle.cc/mcp` |
 | **Auth header** | `Authorization: Bearer <your token>` |
-| **Health check** | `https://mcp.skysparkle.cc/healthz` |
+
 
 ## 🚀 Getting started
 
